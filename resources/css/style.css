@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+}
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.headerimg img {
+  max-height: 50px;
+  margin-left: 10px;
+}
+.headernav a {
+  text-decoration: underline;
+  color: white;
+}
+.header span {
+  margin-left: 15px; /*Assumed not mentioned in spec sheet*/
+}
