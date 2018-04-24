@@ -78,12 +78,13 @@ body {
   padding: 10px;
 }
 
+/* Loactions Area */
 
 #locations {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  margin: 0 auto;
+  margin: 40px auto;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -107,4 +108,15 @@ body {
 .downtown span,h3,.eastbay span,h3,.oakdale span,h3 {
   display: block;
   margin: 30px;
+}
+
+/* Footer Area */
+
+.contact {
+  height: 200px;
+  line-height: 50px;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
