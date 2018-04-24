@@ -12,7 +12,7 @@ body {
 }
 /* Header & Navigation Area */
 
-.header {
+#header {
   height: 69px;
   border-bottom: 1px solid seashell;
   display: flex;
@@ -32,13 +32,13 @@ body {
   text-decoration: underline;
   color: white;
 }
-.header span {
+#header span {
   margin-left: 15px; /*Assumed not mentioned in spec sheet*/
 }
 
 /* Mission Area */
 
-.mission {
+#mission {
   height: 700px;
   width: 1200px;
   display: flex;
@@ -46,7 +46,7 @@ body {
   align-items: center;
   margin: 69 auto;
 }
-.mission .missionstat {
+#mission .missionstat {
   background-color: black;
   width: 1200px;
 }
@@ -56,11 +56,11 @@ body {
 
 /* Tea of the Month Area */
 
-.teamonth {
+#teamonth {
   width: 1000px;
   margin: 0 auto;
 }
-.teamonth h4 {
+#teamonth h4 {
   padding-bottom: 10px; /* Assumed not mentioned in spec sheet */
 }
 .teas {
@@ -75,5 +75,36 @@ body {
   margin-bottom: 10px;
 }
 .item {
-  padding: 10px; 
+  padding: 10px;
+}
+
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#locations h2 {
+  margin-bottom: 15px;
+}
+#locations .location {
+  display: flex;
+
+}
+.downtown,.eastbay,.oakdale {
+  background-color: black;
+  flex-basis: 300px;
+  opacity: 1;
+}
+.downtown,.eastbay {
+  margin-right: 40px;
+}
+.downtown span,h3,.eastbay span,h3,.oakdale span,h3 {
+  display: block;
+  margin: 30px;
 }
